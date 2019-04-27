@@ -1,3 +1,8 @@
+/*
+Klaudia Klebba
+Martyna Klebba
+zadanie3 Account
+*/
 public class Main {
 
     public static void main(String[] args) {
