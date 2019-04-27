@@ -1,3 +1,8 @@
+/*
+Klaudia Klebba
+Martyna Klebba
+zadanie2 Item
+*/
 public class Time {
 
     private int hour;
