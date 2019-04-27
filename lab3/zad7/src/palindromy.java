@@ -1,3 +1,11 @@
+    
+/*
+* Autorzy: Klaudia Klebba
+*           Martyna Klebba
+*
+* palindromy zadanie 7
+*
+* */
 public class palindromy {
     private String palindrom;
 
