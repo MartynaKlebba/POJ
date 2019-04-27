@@ -1,10 +1,10 @@
 /*
-* Autorzy      Martyna Klebba
-*              Klaudia Klebba
-*
-* zadanie 5
-* czas
-* */
+Klaudia Klebba
+Martyna Klebba 
+zadanie 5 Time
+*/
+
+
 public class Time {
 
     private int hour;
@@ -58,20 +58,23 @@ public class Time {
     }
 
     public String toString() {
-        String wypisz;
-        if(hour<10) wypisz= "0"+hour+"/";
-        else wypisz=""+hour+"/";
-        if(minute<10) wypisz+="0"+minute+"/";
-        else wypisz+=minute+"/";
-        if(second<10) wypisz+="0"+second;
-        else wypisz+=second;
-        return wypisz;
+        String godz = Integer.toString(hour);
+     String minu = Integer.toString(minute);
+     String seku = Integer.toString(second);
+
+        while (godz.length() < 2) godz = "0" + godz;
+        while (minu.length() < 2) minu = "0" + minu;
+        while (seku.length() < 2) seku = "0" + seku;
+
+     return "Time["+godz+":"+minu+":"+seku+"]";
     }
+    
 
     public int nextSecond(){
         second=second+1;
         return second;
     }
+    
 
     public int previousSecond(){
         second=second-1;
