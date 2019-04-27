@@ -1,3 +1,8 @@
+/*
+Klaudia Klebba
+Martyna Klebba
+zadanie3 Account
+*/
 public class account {
         private String id;
         private String name;
