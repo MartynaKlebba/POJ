@@ -1,3 +1,9 @@
+/*
+* Martyna Klebba
+* Klaudia Klebba
+* Zadanie 4
+* Data
+*  */
 public class Date {
     private int day;
     private int month;
