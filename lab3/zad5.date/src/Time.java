@@ -1,8 +1,10 @@
 /*
-Klaudia Klebba
-Martyna Klebba
-zadanie2 Item
-*/
+* Autorzy      Martyna Klebba
+*              Klaudia Klebba
+*
+* zadanie 5
+* czas
+* */
 public class Time {
 
     private int hour;
