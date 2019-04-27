@@ -8,9 +8,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        palindromy zdanie1 = new palindromy ("atakkata");
-        palindromy zdanie2 = new palindromy ("muzorazdajjadzarozum");
-        palindromy zdanie3 = new palindromy ("wodyzaldlazydow");
+        palindromy zdanie1 = new palindromy ("Atak kata");
+        palindromy zdanie2 = new palindromy ("Muzo raz daj jad za rozum");
+        palindromy zdanie3 = new palindromy ("Wody zal dla zydow");
 
         System.out.println(zdanie1.getPalindrom()+ " "+zdanie1.check());
         System.out.println(zdanie2.getPalindrom()+ " "+zdanie2.check());

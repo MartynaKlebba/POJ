@@ -17,6 +17,9 @@ public class palindromy {
         return palindrom;
     }
     public String check(){
+        String a = palindrom.toLowerCase();
+        a=a.replace(" ","");
+        a=a.replace(",","");
         String pal = palindrom;
         int h = pal.length();
 
