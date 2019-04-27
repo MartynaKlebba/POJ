@@ -1,3 +1,9 @@
+    
+/*
+Martyna Klebba
+Klaudia Klebba
+zadanie1. Employee
+ */
 public class Employee {
 
 
