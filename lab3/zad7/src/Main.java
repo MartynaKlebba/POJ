@@ -8,7 +8,7 @@
 public class Main {
 
     public static void main(String[] args) {
-        palindromy zdanie1 = new palindromy ("atakkata");
+        palindromy zdanie1 = new palindromy ("Atak kata");
         palindromy zdanie2 = new palindromy ("muzorazdajjadzarozum");
         palindromy zdanie3 = new palindromy ("wodyzaldlazydow");
 
