@@ -1,4 +1,4 @@
-﻿/*
+/*
 Autorzy: Martyna Klebba
 	Aleksander Ostasz 
 
